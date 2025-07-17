@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/fk_test/fk_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/fk_test/fk_test.egg-info/dependency_links.txt
+writing entry points to ../../build/fk_test/fk_test.egg-info/entry_points.txt
+writing requirements to ../../build/fk_test/fk_test.egg-info/requires.txt
+writing top-level names to ../../build/fk_test/fk_test.egg-info/top_level.txt
+reading manifest file '../../build/fk_test/fk_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/fk_test/fk_test.egg-info/SOURCES.txt'
+running build
+running build_py
+copying fk_test/inverse_kinematics_node.py -> /home/ibrahim/ASIMOV/build/fk_test/build/lib/fk_test
+copying fk_test/joint_state_pub.py -> /home/ibrahim/ASIMOV/build/fk_test/build/lib/fk_test
+running install
+running install_lib
+copying /home/ibrahim/ASIMOV/build/fk_test/build/lib/fk_test/inverse_kinematics_node.py -> /home/ibrahim/ASIMOV/install/fk_test/lib/python3.10/site-packages/fk_test
+copying /home/ibrahim/ASIMOV/build/fk_test/build/lib/fk_test/joint_state_pub.py -> /home/ibrahim/ASIMOV/install/fk_test/lib/python3.10/site-packages/fk_test
+byte-compiling /home/ibrahim/ASIMOV/install/fk_test/lib/python3.10/site-packages/fk_test/inverse_kinematics_node.py to inverse_kinematics_node.cpython-310.pyc
+byte-compiling /home/ibrahim/ASIMOV/install/fk_test/lib/python3.10/site-packages/fk_test/joint_state_pub.py to joint_state_pub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ibrahim/ASIMOV/install/fk_test/lib/python3.10/site-packages/fk_test-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/fk_test/fk_test.egg-info to /home/ibrahim/ASIMOV/install/fk_test/lib/python3.10/site-packages/fk_test-0.0.1-py3.10.egg-info
+running install_scripts
+Installing fk_publisher script to /home/ibrahim/ASIMOV/install/fk_test/lib/fk_test
+Installing inverse_kinematics_node script to /home/ibrahim/ASIMOV/install/fk_test/lib/fk_test
+Installing joint_state_pub script to /home/ibrahim/ASIMOV/install/fk_test/lib/fk_test
+writing list of installed files to '/home/ibrahim/ASIMOV/build/fk_test/install.log'

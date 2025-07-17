@@ -1,0 +1,7 @@
+[console_scripts]
+arm_driver = controller.arm_driver:main
+joystick = controller.joystick:main
+keyboard_node = controller.keyboard_node:main
+motor = controller.motor:main
+motor_driver = controller.motor_driver:main
+

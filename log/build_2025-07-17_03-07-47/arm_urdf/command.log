@@ -1,0 +1,4 @@
+Invoking command in '/home/ibrahim/ASIMOV/build/arm_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ibrahim/ASIMOV/build/arm_urdf -- -j4 -l4
+Invoked command in '/home/ibrahim/ASIMOV/build/arm_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ibrahim/ASIMOV/build/arm_urdf -- -j4 -l4
+Invoking command in '/home/ibrahim/ASIMOV/build/arm_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ibrahim/ASIMOV/build/arm_urdf
+Invoked command in '/home/ibrahim/ASIMOV/build/arm_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ibrahim/ASIMOV/build/arm_urdf

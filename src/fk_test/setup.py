@@ -20,7 +20,9 @@ setup(
         'console_scripts': [
         'joint_state_pub = fk_test.joint_state_pub:main',
         'fk_publisher = fk_test.fk_publisher:main',
-        'inverse_kinematics_node = fk_test.inverse_kinematics_node:main'
+        'inverse_kinematics_node = fk_test.inverse_kinematics_node:main',
+        'joint_keyboard_control = fk_test.joint_keyboard_control:main',
+        'cartesian_keyboard_control = fk_test.cartesian_keyboard_control:main',
         ],
     },
 )

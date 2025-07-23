@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ibrahim/ASIMOV/src/arm_urdf
+CMAKE_SOURCE_DIR = /home/ibrahim/ASIMOV/arm_urdf
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ibrahim/ASIMOV/build/arm_urdf

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ibrahim/ASIMOV/src/arm_urdf
+CMAKE_SOURCE_DIR = /home/ibrahim/ASIMOV/arm_urdf
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/ibrahim/ASIMOV/build/arm_urdf
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ibrahim/ASIMOV/build/arm_urdf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ibrahim/ASIMOV/src/arm_urdf /home/ibrahim/ASIMOV/src/arm_urdf /home/ibrahim/ASIMOV/build/arm_urdf /home/ibrahim/ASIMOV/build/arm_urdf /home/ibrahim/ASIMOV/build/arm_urdf/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ibrahim/ASIMOV/build/arm_urdf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ibrahim/ASIMOV/arm_urdf /home/ibrahim/ASIMOV/arm_urdf /home/ibrahim/ASIMOV/build/arm_urdf /home/ibrahim/ASIMOV/build/arm_urdf /home/ibrahim/ASIMOV/build/arm_urdf/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

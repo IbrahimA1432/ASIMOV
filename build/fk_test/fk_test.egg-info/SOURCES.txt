@@ -14,10 +14,3 @@ fk_test/fk_publisher.py
 fk_test/inverse_kinematics_node.py
 fk_test/joint_keyboard_control.py
 fk_test/joint_state_pub.py
-fk_test.egg-info/PKG-INFO
-fk_test.egg-info/SOURCES.txt
-fk_test.egg-info/dependency_links.txt
-fk_test.egg-info/entry_points.txt
-fk_test.egg-info/requires.txt
-fk_test.egg-info/top_level.txt
-fk_test.egg-info/zip-safe

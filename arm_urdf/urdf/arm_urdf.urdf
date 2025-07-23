@@ -86,7 +86,7 @@
   </link>
   <joint
     name="joint_1"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.0055997 0.011176 0.07441"
       rpy="0 0 0.081977" />
@@ -96,6 +96,11 @@
       link="link_1" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-1.5708"
+      upper="1.5708"
+      effort="200"
+      velocity="3" />
   </joint>
   <link
     name="bicep">
@@ -139,7 +144,7 @@
   </link>
   <joint
     name="joint_2"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0 0.075 0.11064"
       rpy="2.3785 -0.3113 0.28497" />
@@ -149,6 +154,11 @@
       link="bicep" />
     <axis
       xyz="0.91355 0 0.40674" />
+    <limit
+      lower="0.3491"
+      upper="2.5307"
+      effort="200"
+      velocity="3" />
   </joint>
   <link
     name="forearm">
@@ -192,7 +202,7 @@
   </link>
   <joint
     name="joint_3"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0 0.36 0"
       rpy="-0.88914 0.75522 -2.866" />
@@ -202,6 +212,11 @@
       link="forearm" />
     <axis
       xyz="0.91886 -0.39458 0" />
+    <limit
+      lower="0"
+      upper="2.4435"
+      effort="200"
+      velocity="3" />
   </joint>
   <link
     name="wrist">
@@ -245,7 +260,7 @@
   </link>
   <joint
     name="joint_4"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.045943 -0.019729 0"
       rpy="0 0 0.057924" />
@@ -255,6 +270,11 @@
       link="wrist" />
     <axis
       xyz="0 0 1" />
+    <limit
+      lower="-1.309"
+      upper="1.309"
+      effort="200"
+      velocity="3" />
   </joint>
   <link
     name="left_claw">
@@ -298,7 +318,7 @@
   </link>
   <joint
     name="left_claw_joint"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.044746 -0.023196 -0.40274"
       rpy="-1.5708 0.14167 1.5708" />
@@ -351,7 +371,7 @@
   </link>
   <joint
     name="right_claw_joint"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="-0.043119 0.023194 -0.40373"
       rpy="-1.5708 -0.18063 -1.5708" />

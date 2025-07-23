@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/ibrahim/ASIMOV/src/arm_urdf
+# Source directory: /home/ibrahim/ASIMOV/arm_urdf
 # Build directory: /home/ibrahim/ASIMOV/build/arm_urdf
 # 
 # This file includes the relevant testing commands required for 

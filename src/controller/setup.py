@@ -31,6 +31,7 @@ setup(
            'motor_driver = controller.motor_driver:main',
            'keyboard_node = controller.keyboard_node:main',
            'arm_driver = controller.arm_driver:main',
+           'arm_keyboard_teleop = controller.arm_keyboard_teleop:main',
        ],
    },
 )

@@ -1,5 +1,6 @@
 [console_scripts]
 arm_driver = controller.arm_driver:main
+arm_keyboard_teleop = controller.arm_keyboard_teleop:main
 joystick = controller.joystick:main
 keyboard_node = controller.keyboard_node:main
 motor = controller.motor:main
